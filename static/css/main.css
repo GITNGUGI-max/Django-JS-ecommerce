@@ -1,0 +1,163 @@
+body{
+	background-color: #F5F5DC;
+  
+}
+
+h1,h2,h3,h4,h5,h6{
+	color:hsl(44, 100%, 50%);
+}
+.container{
+    margin-top: 10px;
+}
+.box-element{
+	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+	background-color: #000000;
+	border-radius: 4px;
+	padding: 10px;
+    color:hsl(44, 100%, 50%);
+}
+.form-inline{
+    display: flex;
+    flex-direction: row;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+.thumbnail{
+	width: 100%;
+	height: 200px;
+	-webkit-box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+    -moz-box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+    box-shadow: -1px -3px 5px -2px rgba(214,214,214,1);
+}
+
+.product{
+	border-radius: 0 0 4px 4px;
+}
+
+.navbar{
+	background-color:hsl(44, 100%, 50%);
+   
+}
+
+#cart-icon{
+	width:25px;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+#cart-total{
+	display: flex;
+	justify-content: space-around;
+	color:#fff;
+	background-color: red;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	font-size: 14px;
+}
+
+.col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12{
+	margin-top: 10px;
+}
+
+.btn{
+	border-radius: 0;
+}
+.actions{
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+    justify-content: space-around;
+}
+.add-btn{
+    flex:1;
+    margin: 10px 0;
+}
+.view{
+    flex: 1;
+    margin:10px 2px;
+}
+.checkout{
+    float: right;
+    margin: 5px;
+}
+
+.price{
+    flex:1;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.row-image{
+	width: 100px;
+}
+
+.form-field{
+	width:250px;
+	display: inline-block;
+	padding: 5px;
+}
+
+.cart-row{
+	display: flex;
+    align-items: flex-stretch;
+    flex-direction: row;
+    flex: 7;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+
+}
+.cart-image{
+    flex:2;
+}
+.cart-item{
+    flex: 2;
+}
+.cart-quantity{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+}
+.cart-price{
+    flex: 1;
+}
+.total{
+    flex: 1;
+}
+.quantity{
+	display: inline-block;
+	font-weight: 700;
+	padding-right:10px;
+	
+
+}
+.item-quantity{
+    margin: 5px 10px;
+}
+.chg-quantity{
+	width: 12px;
+	cursor: pointer;
+	display: block;
+	margin-top: 3px;
+	transition:.1s;
+	cursor: pointer;
+}
+
+.chg-quantity:hover{
+	opacity: .6;
+	cursor: pointer;
+}
+
+
+.hidden{
+	display: none!important;
+	
+}
+
+.navbar-brand, .active{
+	font-weight: 700 !important;
+	
+}
